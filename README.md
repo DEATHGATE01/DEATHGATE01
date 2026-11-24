@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30&height=240&section=header&text=Priyanshu%20Sharma&fontSize=70&fontColor=FFFFFF&fontAlignY=36&desc=AI-Driven%20Automation%20%26%20LLM%20Pipelines%20%7C%20RAG%2C%20Multi-Agent%20Systems%2C%20Full-Stack%20AI%20Products&descAlignY=55&descSize=20&animation=twinkling&stroke=FFFFFF&strokeWidth=2" width="100%"/>
+<img src="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/header.svg" width="100%"/>
 
 <!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=900&color=FF79C6&center=true&vCenter=true&multiline=false&width=800&height=45&lines=Building+production+RAG+pipelines+%F0%9F%9A%80;Multi-agent+LLM+workflows+%7C+CrewAI+%7C+n8n+%F0%9F%A7%A0;FastAPI+%7C+React+%7C+TypeScript+%7C+Python+%F0%9F%92%BB;ChromaDB+%7C+Qdrant+%7C+Sentence+Transformers+%E2%9A%A1;Open+to+SDE+Internships+%26+AI+Roles+%F0%9F%8E%AF" alt="Typing SVG" />
+<img src="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/typing.svg" alt="Typing SVG" />
 
 <br/>
 
@@ -30,7 +30,7 @@
 ---
 
 <!-- About -->
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="270" alt="coding gif"/>
+<img align="right" src="https://github.com/DEATHGATE01.png" width="270" alt="Priyanshu Sharma"/>
 
 ### 👋 About Me
 
