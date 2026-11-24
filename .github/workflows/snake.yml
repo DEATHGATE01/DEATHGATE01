@@ -40,4 +40,5 @@ jobs:
         run: |
           git add dist/
           git commit -m "chore: update snake animation" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
