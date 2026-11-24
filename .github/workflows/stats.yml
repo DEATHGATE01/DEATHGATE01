@@ -1,0 +1,38 @@
+name: Generate Profile Stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # Daily at 6 AM UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - name: Sync with remote
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+      - name: Generate GitHub Stats
+        run: |
+          curl -sL "https://github-readme-stats.vercel.app/api?username=DEATHGATE01&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&cache_seconds=21600" -o assets/stats.svg
+          curl -sL "https://github-readme-stats.vercel.app/api/top-langs/?username=DEATHGATE01&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&cache_seconds=21600" -o assets/top-langs.svg
+          curl -sL "https://streak-stats.demolab.com/?user=DEATHGATE01&theme=radical&hide_border=true&fire=F953C6&ring=38f9d7&currStreakLabel=f9a825&background=0D1117" -o assets/streak.svg
+          curl -sL "https://github-profile-trophy.vercel.app/?username=DEATHGATE01&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=6" -o assets/trophy.svg
+          curl -sL "https://komarev.com/ghpvc/?username=DEATHGATE01&color=F953C6&style=for-the-badge&label=Profile+Views" -o assets/views.svg
+      - name: Commit and Push
+        run: |
+          git add assets/
+          git commit -m "chore: update profile stats" || echo "No changes to commit"
+          git push

@@ -237,14 +237,14 @@ open_to: SDE Internships | AI/ML Roles | Full-Stack Roles
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=DEATHGATE01&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&cache_seconds=21600"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEATHGATE01&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&cache_seconds=21600"/>
+<img height="180em" src="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/stats.svg"/>
+<img height="180em" src="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/top-langs.svg"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=DEATHGATE01&theme=radical&hide_border=true&fire=F953C6&ring=38f9d7&currStreakLabel=f9a825&background=0D1117" alt="GitHub Streak"/>
+<img src="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/streak.svg" alt="GitHub Streak"/>
 
 </div>
 
@@ -269,7 +269,7 @@ open_to: SDE Internships | AI/ML Roles | Full-Stack Roles
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=DEATHGATE01&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/trophy.svg)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -291,8 +291,8 @@ open_to: SDE Internships | AI/ML Roles | Full-Stack Roles
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=DEATHGATE01&color=F953C6&style=for-the-badge&label=Profile+Views)
+![Profile Views](https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/views.svg)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30&height=120&section=footer&animation=twinkling" width="100%"/>
+<img src="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/footer.svg" width="100%"/>
 
 </div>
