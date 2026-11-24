@@ -33,6 +33,7 @@ jobs:
           curl -sL "https://komarev.com/ghpvc/?username=DEATHGATE01&color=F953C6&style=for-the-badge&label=Profile+Views" -o assets/views.svg
       - name: Commit and Push
         run: |
+          git pull --rebase origin main
           git add assets/
           git commit -m "chore: update profile stats" || echo "No changes to commit"
           git push
