@@ -20,9 +20,9 @@
 
 <!-- Snake contribution animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/output/github-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/dist/github-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/dist/github-snake.svg" />
 </picture>
 
 </div>
@@ -85,10 +85,6 @@ open_to: SDE Internships | AI/ML Roles | Full-Stack Roles
 **Frameworks & Libraries**
 
 [![My Skills](https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,flask&theme=dark)](https://skillicons.dev)
-
-**Databases & Cloud**
-
-[![My Skills](https://skillicons.dev/icons?i=postgres,mongodb,redis,chromadb,supabase,aws,gcp&theme=dark)](https://skillicons.dev)
 
 **Tools & DevOps**
 
@@ -262,7 +258,7 @@ open_to: SDE Internships | AI/ML Roles | Full-Stack Roles
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DEATHGATE01&theme=radical"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DEATHGATE01&theme=radical"/>
-<img src="https://github.com/profile-summary-cards.vercel.app/api/cards/stats?username=DEATHGATE01&theme=radical"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DEATHGATE01&theme=radical"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DEATHGATE01&theme=radical&utcOffset=5.5"/>
 
 </div>
