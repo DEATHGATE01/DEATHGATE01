@@ -20,9 +20,9 @@
 
 <!-- Snake contribution animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/dist/github-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/dist/github-snake.svg" width="880" height="192" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/snake-full-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/snake-full.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/snake-full.svg" width="880" height="192" />
 </picture>
 
 </div>
