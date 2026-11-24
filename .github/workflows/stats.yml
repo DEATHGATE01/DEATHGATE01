@@ -29,7 +29,6 @@ jobs:
           curl -sL "https://github-readme-stats.vercel.app/api?username=DEATHGATE01&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&cache_seconds=21600" -o assets/stats.svg
           curl -sL "https://github-readme-stats.vercel.app/api/top-langs/?username=DEATHGATE01&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&cache_seconds=21600" -o assets/top-langs.svg
           curl -sL "https://streak-stats.demolab.com/?user=DEATHGATE01&theme=radical&hide_border=true&fire=F953C6&ring=38f9d7&currStreakLabel=f9a825&background=0D1117" -o assets/streak.svg
-          curl -sL "https://github-profile-trophy.vercel.app/?username=DEATHGATE01&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=6" -o assets/trophy.svg
           curl -sL "https://komarev.com/ghpvc/?username=DEATHGATE01&color=F953C6&style=for-the-badge&label=Profile+Views" -o assets/views.svg
       - name: Commit and Push
         run: |

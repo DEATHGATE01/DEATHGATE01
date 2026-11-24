@@ -265,16 +265,6 @@ open_to: SDE Internships | AI/ML Roles | Full-Stack Roles
 
 ---
 
-### 🏆 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://raw.githubusercontent.com/DEATHGATE01/DEATHGATE01/main/assets/trophy.svg)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ### 🎖️ Achievements
 
 | 🏅 | Achievement |
