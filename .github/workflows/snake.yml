@@ -19,12 +19,20 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-      - name: Generate Snake Animation
+      - name: Generate Snake Animation (Light)
         uses: Platane/snk@master
         with:
           github_user_name: DEATHGATE01
           svg_out_path: dist/github-snake.svg
           gif_out_path: dist/github-snake.gif
+      - name: Generate Snake Animation (Dark)
+        uses: Platane/snk@master
+        with:
+          github_user_name: DEATHGATE01
+          svg_out_path: dist/github-snake-dark.svg
+          gif_out_path: dist/github-snake-dark.gif
+          color_snake: "orange"
+          color_dots: "#bfbfbf,#8b8b8b,#5c5c5c,#2d2d2d"
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
